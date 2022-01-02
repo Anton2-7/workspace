@@ -1,0 +1,405 @@
+* {
+    font-family: 'Gilroy', 'sans-serif';
+    box-sizing: border-box;
+     margin: 0;
+     padding:0;
+}
+
+header {
+    display: flex;
+    min-height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 36px;
+    float: left;
+    line-height: 45px;
+    justify-content: space-around;
+    border-bottom: 2px solid #E5E5E5;
+    margin-bottom: 20px;
+}
+
+.construction {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.photopic {
+    float: left;
+    width: 90px;
+
+}
+
+.construction h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #B8884B;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    
+}
+.construction2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    float: left;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.construction2 p {
+    display: flex;
+    flex-direction: flex-start;
+    text-align: left;
+
+}
+.order__list {
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.order__list ol {
+    list-style-image: url('../image/list-style.png');
+    
+}
+
+.project__сalc__button {
+    margin-left: 30px;
+    border: 2px solid #B8884B;
+    padding: 15px;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B8884B;
+
+}
+
+.project__сalc__button img {
+    padding-left: 10px;
+    vertical-align: middle;
+
+}
+
+.header__main {
+    display: flex;
+    min-height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 36px;
+    float: left;
+    line-height: 45px;
+    justify-content: space-around;
+    border-bottom: 2px solid #E5E5E5;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.header__account {
+    float: left;
+    cursor: pointer;
+}
+
+.project__photos {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    float: left;
+    width: 100%;
+    grid-row-gap: 0px;
+}
+
+.div2 {
+    grid-area: 1 / 1 / 6 / 2;
+    width: 220px;
+    height: 428px;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    width: 100px;
+    height: 92px;
+    padding-left: 20px;
+}
+
+.div4 {
+    grid-area: 2 / 3 / 3 / 4;
+    padding-left: 20px;
+    width: 100px;
+    height: 92px;
+}
+
+.div5 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div6 {
+    grid-area: 1 / 2 / 3 / 3;
+    padding-left: 20px;
+
+}
+
+.div7 {
+    grid-area: 3 / 2 / 5 / 4;
+    padding-left: 20px;
+    width: 240px;
+
+}
+
+select {
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding-left: 20px;
+    height: 46px;
+    color: black;
+    background: rgb(223, 222, 222);
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17, 15px;
+    margin-bottom: 15px;
+}
+
+.logo__fotm,
+input {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 10px;
+
+    border: 2px solid #252D35;
+    background: #eeebeb;
+    text-align: center;
+    font-weight: 500;
+    color: #252D35;
+    font-family: 'Gilroy', 'sans-serif';
+    opacity: 0.5;
+}
+
+a:active,
+a:focus {
+    outline: none;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+input:active,
+textarea:active {
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+textarea {
+    resize: horizontal;
+}
+
+select:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.85em) 1.2em;
+    background-size: 0.85em auto;
+    background-image: url("../image/arrow.png");
+
+}
+
+.logo__form {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    background: #F1F5F8;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.logo__agreement input {
+    height: 20px;
+    width: 12%;
+    float: left;
+    margin: 0 auto;
+}
+
+.logo__agreement {
+    margin-top: 10px;
+    font-weight: 500px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #252D35;
+    opacity: 0.5;
+}
+
+.header__section {
+    padding-top: 17px;
+    float: left;
+}
+
+.header__logo {
+    float: left;
+    padding-top: 20px;
+    cursor: pointer;
+  
+
+}
+
+.header__button {
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    
+}
+
+.logo__button {
+    margin-top: 20px;
+    background: linear-gradient(86.93deg, #01305E 0%, #084E92 100%);
+    border: 2px solid rgba(241, 245, 248, 0.3);
+    box-sizing: border-box;
+    height: 46px;
+    color: #F1F5F8;
+    box-shadow: 0px 8px 20px rgba(16, 98, 179, 0.35);
+}
+
+.account__ability {
+    padding-left: 15px;
+    padding-top: 20px;
+
+}
+
+.account__ability h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #252D35;
+    line-height: 37px;
+    opacity: 0.35;
+}
+
+.--modtext {
+    font-size: 14px;
+    line-height: 17px;
+    color: #252D35;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 17px;
+    font-weight: 500;
+    width: 87%;
+    word-break: break-all;
+}
+
+.logo__window {
+    display: block;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    background: rgb(212 214 216 );
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.account__video {
+    width: 93%;
+    background-size: cover;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('../image/photo.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text__part__four {
+    margin-bottom: 20px;
+}
+
+.main__background {
+    padding-top: 85px;
+    width: 100%;
+}
+
+.logo__window span {
+    float: left;
+}
+/* Убрать display none чтобы увидеть поле авторизации в аккаунт */
+.account__menu {
+    display:none;
+    position: absolute;
+    top: 0;
+}
+.block__a {
+    background: rgba(28, 36, 44, 0.5);
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Semibold.woff') format('woff'),
+        url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold Italic'), local('Gilroy-Bold-Italic'),
+        url('../fonts/Gilroy-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-BoldItalic.woff') format('woff'),
+        url('../fonts/Gilroy-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
